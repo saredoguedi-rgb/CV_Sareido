@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon CV - Sareido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: #555;
+        }
+        .cv-container {
+            background: #ffffff;
+            max-width: 800px;
+            margin: 40px auto;
+            border-radius: 24px;
+            box-shadow: 0 10px 40px rgba(159, 122, 129, 0.2);
+            padding: 40px 32px 32px 32px;
+            border: 1px solid #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            border-bottom: 2px solid #f48fb1;
+            padding-bottom: 18px;
+            margin-bottom: 28px;
+        }
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #f48fb1, #ec407a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 2.5rem;
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+        }
+        .infos {
+            flex: 1;
+        }
+        .infos h1 {
+            margin: 0 0 6px 0;
+            font-size: 2.2rem;
+            color: #ad1457;
+            font-family: 'Playfair Display', serif;
+        }
+        .infos h2 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #f06292;
+            font-weight: 500;
+        }
+        .section {
+            margin-bottom: 28px;
+        }
+        .section-title {
+            color: #ec407a;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        ul, .skills-list {
+            padding-left: 18px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .skills-list li {
+            background: #fce4ec;
+            color: #ad1457;
+            border-radius: 16px;
+            padding: 8px 18px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .contact {
+            display: flex;
+            gap: 18px;
+            margin-top: 10px;
+        }
+        .contact a {
+            color: #f06292;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        @media (max-width: 600px) {
+            .cv-container { padding: 18px 4vw; }
+            .header { flex-direction: column; gap: 10px; text-align: center; }
+            .avatar { width: 70px; height: 70px; font-size: 1.5rem; }
+            .contact { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <div class="avatar">S</div>
+            <div class="infos">
+                <h1>SAREIDO DJAMA GUEDI</h1>
+                <h2>M.Sc en Nutrition, MBA en Gestion de Projet</h2>
+                <div class="contact">
+                    <a href="mailto:saredoguedi@gmail.com">saredoguedi@gmail.com</a>
+                    <a href="tel:+14388357336">+1 438-835-7336</a>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Profil Professionnel</div>
+            <p>Professionnelle expérimentée en gestion de projet avec 8 ans d'expérience. Titulaire d'un MBA en gestion de projet, j’ai démontré ma capacité à réduire les délais de livraison de 20 %, optimiser les budgets de projet de 15 %, et diminuer les risques de 30 % en appliquant des méthodologies de gestion rigoureuses. Passionnée par la coordination d’équipes pluridisciplinaires et la gestion des parties prenantes, je suis orientée résultats et prête à maximiser la valeur ajoutée pour votre organisation.</p>
+        </div>
+        <div class="section">
+            <div class="section-title">Compétences Clés</div>
+            <ul class="skills-list">
+                <li>Gestion Agile (Scrum/Kanban)</li>
+                <li>JIRA, Confluence, Trello, Monday</li>
+                <li>Planification et gestion des risques</li>
+                <li>Power BI, SQL</li>
+                <li>Indicateurs de performance (KPI)</li>
+                <li>Leadership inspirant</li>
+                <li>MS Project, Suite Office</li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Expérience Professionnelle</div>
+            <h3>GDI SERVICES AUX IMMEUBLES | Montréal (2021 – Présent)</h3>
+            <h4>Chargée de Projets</h4>
+            <ul>
+                <li><b>Gestion du département agroalimentaire et prévention SST:</b> Supervision de 83 employés, suivi de la performance, communication client, et animation de la culture SST.</li>
+                <li><b>Mise en œuvre d’Odoo ERP:</b> Diagnostic des processus, coordination d’équipe, gestion du calendrier, des risques et des livrables.</li>
+            </ul>
+            <h3>EXCELDOR | Québec (2018 – 2021)</h3>
+            <h4>Chargée de Projets</h4>
+            <ul>
+                <li><b>Réduction des accidents sur le plancher:</b> Diagnostic et mise en œuvre de mesures pour réduire de 60% les incidents.</li>
+                <li><b>Évaluation environnementale de l’usine:</b> Audit et plan d’amélioration pour renforcer la conformité environnementale.</li>
+                <li><b>Intégration d’un module SAP pour la gestion des stocks:</b> Coordination de l’implantation, gestion de projet et des risques.</li>
+                <li><b>Installation de robots industriels:</b> Automatisation pour améliorer l’efficacité, la qualité et la productivité.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Formation & Certifications</div>
+            <ul>
+                <li><b>MBA en Gestion de Projet</b> – Université du Québec à Trois-Rivières (2022-2025)</li>
+                <li>PMP (en cours)</li>
+                <li>Maîtrise Excel & VBA</li>
+                <li>Code SQF de salubrité alimentaire</li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Langues</div>
+            <ul class="skills-list">
+                <li>Français (Langue maternelle)</li>
+                <li>Anglais (Niveau débutante)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
